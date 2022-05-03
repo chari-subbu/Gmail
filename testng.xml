@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Gmail Suite">
+	<test name="Gmail Test">
+		<classes>
+			<class name="com.gmail.runner.TC_001_VerifyGmail">
+				<methods>
+					<include name="loginToGmail" />
+					<include name="composeAnEmail" />
+					<include name="labeleMailAsSocial" />
+					<include name="markEmailAsStarred" />
+					<include name="verifyMailUnderSocialLabel" />
+					<include name="verifyTheSubjectAndBodyOfTheReceivedEmail" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 
